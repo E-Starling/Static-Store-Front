@@ -1,0 +1,85 @@
+body{
+    background-color: lightgrey;
+    
+}
+header{
+    background: url(img/Background.jpg) center 0px;
+    margin: 0 0 1em;
+    padding: 1px 0 2em;
+}
+nav#memesearch{
+    background-color: black;
+    width:28%;
+    padding-top: 1px;
+}
+nav#memesearch li{
+    display: inline-block;
+    font-size: larger;
+    
+}
+nav li a:hover{
+    background-color: purple;
+}
+nav#memesearch ul li.Nav a, nav#memesearch ul li.Nav a:visited{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+header h1{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: .2em;
+    font-size:3em;
+}
+.h1billy{
+    margin: 0 600px 0;
+}
+.h1meme{
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 700px 0;
+}
+.h1shop{
+    margin: 0 800px 0;
+}
+h3{
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.memes{
+    max-width: 1500px;
+    padding: 0 2.5em;
+    text-align: center;
+}
+.memeimg{
+    float: left;
+    position: relative;
+    width: 400px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background: url(img/Background.jpg);
+    border-radius: 0.3em;
+}
+button{
+    background-color:white;
+    border-color:grey;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+img{
+    width:380px;
+    height: 250px;
+    background-color: white;
+}
+.ontofooter{
+    clear:both;
+}
+footer{
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 5px 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(185, 122, 87);
+}
